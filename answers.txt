@@ -1,0 +1,15 @@
+Explain why a number data type added to a string data type returns a string.
+- Javascript "overloads" (or reuses) the + operator. JS will try to do string concatenation before arithmetic. 
+  Above it converts everything to a string and then concatenates them.
+
+Name a scenario where using the == operator could cause a bug.
+- An example would expecting to do math with number datatypes and don't parse the number from a string (user) input. 
+  == could make it look like the program is working initially. Then later in development when numbers get bigger or more
+  processing is done, errors will start to occur.
+
+Name the operator(s) that you find confusing and explain why.
+- % (modulus) is a little difficult to envision mentally. It's not a common term I'm used to seeing. 
+
+Explain a situation where you would use the Modulus operator and why.
+- Using variable%2 to determine if an input is odd or even. 
+- This could be calculation purposes, game development, etc.  
